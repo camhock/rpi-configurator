@@ -1,0 +1,27 @@
+{
+    "name": "rpi-configurator",
+    "description": "",
+    "dependencies": {
+        "device": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v0.12.10",
+        "tag": "v0.12.10",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/fac0afffac5e1909bb357b6cb1a3ac0abd4781c4",
+        "target": "1.7.24",
+        "pxt": "5.17.22",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
